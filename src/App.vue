@@ -1,6 +1,8 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+
+const newMsg = "new message!"
 </script>
 
 <template>
@@ -14,6 +16,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <main>
     <TheWelcome />
+    <h1>{{ newMsg }}</h1>
   </main>
 </template>
 
